@@ -22,7 +22,7 @@ def process_excel_files():
 # Define function to calculate similarities and display results
 def calculate_and_display_similarities(extraction_usine_df, extraction_jira_df):
     if extraction_usine_df is not None and extraction_jira_df is not None:
-        # Assuming model is defined for text embedding
+        # Load pre-trained SentenceTransformer model
         model = SentenceTransformer('all-MiniLM-L6-v2')
 
         # Generate embeddings for the data in extraction_usine_df and extraction_jira_df
