@@ -1,0 +1,4 @@
+streamlit
+SentenceTransformer
+cosine_similarity
+numpy
