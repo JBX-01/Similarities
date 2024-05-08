@@ -1,4 +1,7 @@
-streamlit
-SentenceTransformer
-cosine_similarity
 numpy
+pandas
+cosine_similarity
+streamlit
+sentence-transformers
+scikit-learn
+openpyxl
